@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Kale - Resume</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        /* Full Page Settings */
+        html, body { height: 100%; background: white; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.5; color: #333; font-size: 13.5px; }
+        
+        .resume-wrapper { display: flex; min-height: 100vh; width: 100%; }
+
+        /* Left Sidebar - Light Blue (30%) */
+        .sidebar { width: 30%; background-color: #f0f7ff; padding: 40px 25px; border-right: 1px solid #ddecff; }
+        .sidebar h2 { font-size: 16px; color: #2980b9; border-bottom: 2px solid #3498db; margin: 25px 0 12px; padding-bottom: 5px; text-transform: uppercase; letter-spacing: 1px; }
+        .contact-item { margin-bottom: 12px; font-size: 12.5px; word-wrap: break-word; }
+        .contact-item strong { display: block; color: #2c3e50; font-size: 11px; text-transform: uppercase; }
+        .contact-item a { color: #3498db; text-decoration: none; }
+        
+        .list-style { list-style: none; }
+        .list-style li { margin-bottom: 7px; padding-left: 12px; position: relative; }
+        .list-style li::before { content: "•"; color: #3498db; position: absolute; left: 0; font-weight: bold; }
+
+        /* Right Content Area (70%) */
+        .main-content { width: 70%; padding: 40px 45px; }
+        
+        .header { margin-bottom: 30px; }
+        .header h1 { font-size: 34px; color: #2c3e50; text-transform: uppercase; line-height: 1; margin-bottom: 5px; }
+        .header .title { font-size: 16px; color: #3498db; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+
+        section { margin-bottom: 25px; }
+        h3 { font-size: 15px; color: #2c3e50; border-bottom: 1.5px solid #3498db; padding-bottom: 4px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; }
+        
+        .project-block { margin-bottom: 18px; }
+        .project-header { font-weight: bold; color: #2c3e50; font-size: 14.5px; display: block; margin-bottom: 4px; }
+        
+        ul.desc-list { margin-left: 18px; list-style-type: square; }
+        ul.desc-list li { margin-bottom: 5px; text-align: justify; }
+
+        .edu-row { display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 2px; color: #2c3e50; }
+        .edu-sub { display: flex; justify-content: space-between; color: #7f8c8d; font-style: italic; margin-bottom: 10px; }
+
+        /* Print optimization */
+        @media print {
+            body { padding: 0; }
+            .resume-wrapper { height: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-wrapper">
+    <aside class="sidebar">
+        <div class="contact-item"><strong>Location</strong> Mumbai, Maharashtra</div>
+        <div class="contact-item"><strong>Phone</strong> 8291450136</div>
+        <div class="contact-item"><strong>Email</strong> <a href="mailto:Kalevaishnavi345@gmail.com">Kalevaishnavi345@gmail.com</a></div>
+        <div class="contact-item"><strong>LinkedIn</strong> <a href="https://linkedin.com/in/vaishnavi-kale-456017331">vaishnavi-kale-456017331</a></div>
+        <div class="contact-item"><strong>GitHub</strong> <a href="https://github.com/KaleVaishnavi345">KaleVaishnavi345</a></div>
+
+        <h2>Technical Skills</h2>
+        <ul class="list-style">
+            <li><strong>Analytics:</strong> Excel, Power Pivot, DAX, SQL (MySQL)</li>
+            <li><strong>Languages:</strong> Python, C, C++, HTML5, CSS3</li>
+            <li><strong>Libraries:</strong> Pandas, NumPy, Matplotlib, Seaborn</li>
+            <li><strong>Tools:</strong> Git, GitHub, VS Code, Flask, Tkinter</li>
+        </ul>
+
+        <h2>Education</h2>
+        <div style="margin-bottom: 15px;">
+            <p style="font-weight: bold;">RGIT, Mumbai</p>
+            <p>B.E. in IT (2023-2027)</p>
+            <p>SGPI: 7.89</p>
+        </div>
+        <div style="margin-bottom: 15px;">
+            <p style="font-weight: bold;">Vidyaniketan College</p>
+            <p>HSC Science (2023)</p>
+            <p>Percentage: 60%</p>
+        </div>
+
+        <h2>Languages</h2>
+        <ul class="list-style">
+            <li>English (Fluent)</li>
+            <li>Hindi</li>
+            <li>Marathi</li>
+        </ul>
+
+        <h2>Hobbies</h2>
+        <ul class="list-style">
+            <li>Travelling</li>
+            <li>Cooking</li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <header class="header">
+            <h1>Vaishnavi Kale</h1>
+            <p class="title">IT Engineering Student | Aspiring Data Analyst</p>
+        </header>
+
+        <section>
+            <h3>Professional Summary</h3>
+            <p>Dedicated Information Technology student with a focus on Data Analytics and Problem Solving. Proficient in leveraging SQL and Python for data manipulation and Excel for executive business reporting. Successfully completed an intensive roadmap in Data Analytics, focusing on high-revenue sales portfolios ($7B+) and AI-driven urban solutions.</p>
+        </section>
+
+        <section>
+            <h3>Analytics Projects</h3>
+            <div class="project-block">
+                <span class="project-header">Executive Sales Performance Dashboard (Excel & DAX)</span>
+                <ul class="desc-list">
+                    <li>Processed a global dataset representing <strong>$7.02 Billion in revenue</strong> to extract regional growth insights.</li>
+                    <li>Developed complex data models using <strong>Power Pivot</strong> and created <strong>DAX measures</strong> for Year-to-Date (YTD) and Same-Period-Last-Year (SPLY) analysis.</li>
+                    <li>Engineered interactive slicers for Manufacturers and Categories, identifying the East region ($3.29B) as the key market driver.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h3>Engineering & AI Projects</h3>
+            <div class="project-block">
+                <span class="project-header">MetroFlow AI: Predictive Urban Transit Optimization</span>
+                <ul class="desc-list">
+                    <li>Developed a conceptual framework for station passenger flow prediction using data modeling techniques.</li>
+                    <li>Designed logic to analyze density patterns to suggest peak-hour route adjustments and congestion reduction strategies.</li>
+                </ul>
+            </div>
+
+            <div class="project-block">
+                <span class="project-header">QuizCrack: Full-Stack Educational Platform (Flask)</span>
+                <ul class="desc-list">
+                    <li>Built a responsive web application using <strong>Python Flask</strong> for randomized question delivery and score tracking.</li>
+                    <li>Managed backend session logic to provide real-time performance feedback and timed assessment rounds.</li>
+                </ul>
+            </div>
+
+            <div class="project-block">
+                <span class="project-header">Instant News Headline Generator (Python & API)</span>
+                <ul class="desc-list">
+                    <li>Created a GUI application using Tkinter that integrates with News API to fetch and categorize global news in real-time.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h3>Certifications & Training</h3>
+            <ul class="desc-list">
+                <li><strong>Data Analytics Certification:</strong> 12-week intensive training covering SQL retrieval, Python EDA, and Excel Power Pivot.</li>
+                <li><strong>MySQL with Spring Boot:</strong> Skill Forge E-Learning Solutions (2025).</li>
+                <li><strong>Active Member:</strong> Universal Human Values (UHV) Committee & College IT Club; volunteered for multiple tech events.</li>
+            </ul>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
