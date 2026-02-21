@@ -17,3 +17,7 @@ The goal of this project was to analyze a global sales dataset to identify top-p
 * **Advanced Formulas:** Implemented DAX/Excel formulas for **YTD (Year-To-Date)** and **SPLY (Same Period Last Year)** comparisons.
 * **User Experience:** Created interactive Slicers (Timeline, Region, Category) for on-the-fly data filtering.
 * **Visual Hierarchy:** Organized KPIs (Total Units, Total Sales) at the top for immediate executive summary.
+
+---
+## 📄 Professional Portfolio
+This project is part of my professional Data Analytics portfolio. You can view my full technical background, including projects like **MetroFlow AI** and **QuizCrack**, in my [Digital Resume](./Vaishnavi_Kale_Resume.html).
