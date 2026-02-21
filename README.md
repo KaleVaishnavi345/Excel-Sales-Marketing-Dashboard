@@ -3,6 +3,9 @@
 ## 🎯 Business Objective
 The goal of this project was to analyze a global sales dataset to identify top-performing regions, manufacturers, and product categories. By visualizing $7.02 Billion in revenue, this dashboard helps stakeholders make data-driven decisions regarding inventory and regional marketing spend.
 
+## 📊 Dashboard Preview
+![Sales Dashboard](dashboard_preview.png)
+
 ## 📊 Key Insights from the Analysis
 * **Top Region:** The **East** region is the primary revenue driver, contributing **$3.29B (approx. 47%)** of total sales.
 * **Dominant Category:** **Urban** products significantly outperform other categories, accounting for **$5.63B** in revenue.
